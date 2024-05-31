@@ -37,6 +37,9 @@ exec --no-startup-id nm-applet
 # Start polybar on login
 exec polybar
 
+# set wallpaper on login
+exec feh --bg-fill Downloads/Mitsubishi-Lancer-MR-White-1.jpg
+
 #line for gaps (can replace "0" with another value if you want a border
 #removes titlebar 
 for_window [class=".*"] border pixel 0
